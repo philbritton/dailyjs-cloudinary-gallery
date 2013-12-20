@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b64ce719-96c7-4a55-bb12-c58e97eaef15}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>app.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Compile Include="app.js" />
+    <Content Include="public\cloudinary_cors.html" />
+    <Compile Include="public\jquery.cloudinary.js" />
+    <Compile Include="public\jquery.fileupload.js" />
+    <Compile Include="public\jquery.iframe-transport.js" />
+    <Compile Include="public\jquery.ui.widget.js" />
+    <Compile Include="routes\index.js" />
+    <Compile Include="routes\user.js" />
+    <Content Include="views\index.jade" />
+    <Content Include="views\layout.jade" />
+    <Content Include="public\images\image-example.png" />
+    <Content Include="public\stylesheets\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git" />
+    <Folder Include=".git\hooks" />
+    <Folder Include=".git\info" />
+    <Folder Include=".git\logs" />
+    <Folder Include=".git\logs\refs" />
+    <Folder Include=".git\logs\refs\heads" />
+    <Folder Include=".git\logs\refs\remotes" />
+    <Folder Include=".git\logs\refs\remotes\origin" />
+    <Folder Include=".git\objects" />
+    <Folder Include=".git\objects\info" />
+    <Folder Include=".git\objects\pack" />
+    <Folder Include=".git\refs" />
+    <Folder Include=".git\refs\heads" />
+    <Folder Include=".git\refs\remotes" />
+    <Folder Include=".git\refs\remotes\origin" />
+    <Folder Include=".git\refs\tags" />
+    <Folder Include="node_modules\" />
+    <Folder Include="node_modules\.bin" />
+    <Folder Include="node_modules\cloudinary" />
+    <Folder Include="node_modules\cloudinary\lib" />
+    <Folder Include="node_modules\cloudinary\node_modules" />
+    <Folder Include="node_modules\cloudinary\node_modules\.bin" />
+    <Folder Include="node_modules\cloudinary\node_modules\coffee-script" />
+    <Folder Include="node_modules\cloudinary\node_modules\coffee-script\bin" />
+    <Folder Include="node_modules\cloudinary\node_modules\coffee-script\extras" />
+    <Folder Include="node_modules\cloudinary\node_modules\coffee-script\lib" />
+    <Folder Include="node_modules\cloudinary\node_modules\coffee-script\lib\coffee-script" />
+    <Folder Include="node_modules\cloudinary\node_modules\temp" />
+    <Folder Include="node_modules\cloudinary\node_modules\temp\examples" />
+    <Folder Include="node_modules\cloudinary\node_modules\temp\lib" />
+    <Folder Include="node_modules\cloudinary\node_modules\temp\test" />
+    <Folder Include="node_modules\cloudinary\node_modules\underscore" />
+    <Folder Include="node_modules\cloudinary\node_modules\underscore\raw" />
+    <Folder Include="node_modules\cloudinary\test" />
+    <Folder Include="node_modules\express" />
+    <Folder Include="node_modules\express\bin" />
+    <Folder Include="node_modules\express\lib" />
+    <Folder Include="node_modules\express\lib\router" />
+    <Folder Include="node_modules\express\node_modules" />
+    <Folder Include="node_modules\express\node_modules\commander" />
+    <Folder Include="node_modules\express\node_modules\commander\lib" />
+    <Folder Include="node_modules\express\node_modules\connect" />
+    <Folder Include="node_modules\express\node_modules\connect\lib" />
+    <Folder Include="node_modules\express\node_modules\connect\lib\middleware" />
+    <Folder Include="node_modules\express\node_modules\connect\lib\middleware\session" />
+    <Folder Include="node_modules\express\node_modules\connect\lib\public" />
+    <Folder Include="node_modules\express\node_modules\connect\lib\public\icons" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\bytes" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\benchmark" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\example" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\lib" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\node-gently" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\node-gently\example" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\node-gently\lib" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\node-gently\lib\gently" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\node-gently\test" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\node-gently\test\simple" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\http" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\http\special-chars-in-filename" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\integration" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\integration" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\system" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\test\unit" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\formidable\tool" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\pause" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\qs" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\qs\lib" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\qs\test" />
+    <Folder Include="node_modules\express\node_modules\connect\node_modules\qs\test\browser" />
+    <Folder Include="node_modules\express\node_modules\cookie" />
+    <Folder Include="node_modules\express\node_modules\cookie\test" />
+    <Folder Include="node_modules\express\node_modules\cookie-signature" />
+    <Folder Include="node_modules\express\node_modules\crc" />
+    <Folder Include="node_modules\express\node_modules\crc\lib" />
+    <Folder Include="node_modules\express\node_modules\crc\test" />
+    <Folder Include="node_modules\express\node_modules\debug" />
+    <Folder Include="node_modules\express\node_modules\debug\example" />
+    <Folder Include="node_modules\express\node_modules\debug\lib" />
+    <Folder Include="node_modules\express\node_modules\fresh" />
+    <Folder Include="node_modules\express\node_modules\methods" />
+    <Folder Include="node_modules\express\node_modules\mkdirp" />
+    <Folder Include="node_modules\express\node_modules\mkdirp\examples" />
+    <Folder Include="node_modules\express\node_modules\mkdirp\test" />
+    <Folder Include="node_modules\express\node_modules\range-parser" />
+    <Folder Include="node_modules\express\node_modules\send" />
+    <Folder Include="node_modules\express\node_modules\send\lib" />
+    <Folder Include="node_modules\express\node_modules\send\node_modules" />
+    <Folder Include="node_modules\express\node_modules\send\node_modules\mime" />
+    <Folder Include="node_modules\express\node_modules\send\node_modules\mime\types" />
+    <Folder Include="node_modules\jade" />
+    <Folder Include="node_modules\jade\bin" />
+    <Folder Include="node_modules\jade\lib" />
+    <Folder Include="node_modules\jade\lib\nodes" />
+    <Folder Include="node_modules\jade\node_modules" />
+    <Folder Include="node_modules\jade\node_modules\.bin" />
+    <Folder Include="node_modules\jade\node_modules\coffee-script" />
+    <Folder Include="node_modules\jade\node_modules\coffee-script\bin" />
+    <Folder Include="node_modules\jade\node_modules\coffee-script\extras" />
+    <Folder Include="node_modules\jade\node_modules\coffee-script\lib" />
+    <Folder Include="node_modules\jade\node_modules\coffee-script\lib\coffee-script" />
+    <Folder Include="node_modules\jade\node_modules\commander" />
+    <Folder Include="node_modules\jade\node_modules\commander\lib" />
+    <Folder Include="node_modules\jade\node_modules\mkdirp" />
+    <Folder Include="node_modules\jade\node_modules\mkdirp\examples" />
+    <Folder Include="node_modules\jade\node_modules\mkdirp\test" />
+    <Folder Include="node_modules\jade\testing" />
+    <Folder Include="node_modules\jade\testing\nested" />
+    <Folder Include="public" />
+    <Folder Include="public\images" />
+    <Folder Include="public\stylesheets" />
+    <Folder Include="routes" />
+    <Folder Include="views" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

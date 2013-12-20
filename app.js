@@ -15,7 +15,7 @@ var express = require('express')
 
 var app = express();
 
-app.locals.title = "Alex's Awesome Gallery";
+app.locals.title = "Phil's Awesome Gallery";
 
 app.configure(function(){
   app.set('port', process.env.PORT || 3000);
@@ -31,7 +31,7 @@ app.configure(function(){
 
 app.configure('development', function(){
   app.use(express.errorHandler());
-  cloudinary.config({ cloud_name: 'YOURS', api_key: 'YOURS', api_secret: 'YOURS' });
+  cloudinary.config({ cloud_name: 'dacgrouplabs', api_key: '175422222923143', api_secret: 'VP6MvtqJHQuq6ZDSVkOavGZgoOU' });
 });
 
 app.locals.api_key = cloudinary.config().api_key;
